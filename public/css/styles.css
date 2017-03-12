@@ -1,0 +1,9 @@
+.recipe-layout {
+	height: 220px;
+	width: 20%;
+	background: blue;
+	margin: 2px;
+}
+.home-page {
+	box-sizing: border-box;
+}
