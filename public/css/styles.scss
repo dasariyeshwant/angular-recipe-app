@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+// styles
+.recipe-layout {
+	height: 220px;
+	width: 20%;
+	background: $recipe-layout-bg;
+	margin: 2px;
+}
+.home-page {
+	box-sizing: border-box;
+}
+.navbar-custom {
+	background: $app-theme-color;
+}
+aside {
+	height: 100%;
+	background: yellow;
+	position: absolute;
+	width: 250px;
+}
+.main {
+	height: 100%;
+	position: absolute;
+	left: 260px;
+}

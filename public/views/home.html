@@ -1,5 +1,5 @@
-<div class="home-page">
-	<div class="recipe-layout pull-left" ng-repeat="list in recipesList">
+<div class="home-page" ng-repeat="list in recipesList">
+	<div class="recipe-layout pull-left" ng-click="openIndividualRecipePage(list.id)">
 		<h2>{{list.title}}</h2>
 	</div>
 </div>

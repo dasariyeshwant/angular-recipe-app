@@ -1,9 +1,22 @@
 .recipe-layout {
-	height: 220px;
-	width: 20%;
-	background: blue;
-	margin: 2px;
-}
+  height: 220px;
+  width: 20%;
+  background: blue;
+  margin: 2px; }
+
 .home-page {
-	box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
+.navbar-custom {
+  background: brown; }
+
+aside {
+  height: 100%;
+  background: yellow;
+  position: absolute;
+  width: 250px; }
+
+.main {
+  height: 100%;
+  position: absolute;
+  left: 260px; }
